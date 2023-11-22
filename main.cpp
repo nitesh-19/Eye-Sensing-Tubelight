@@ -11,18 +11,18 @@ int main() {
     VideoCapture webcam(0);
     CascadeClassifier faceCascade;
     vector<Rect> faces;
-
     Mat img;
+
     while (true) {
         webcam.read(img);
         faceCascade.load(
-                R"(C:\\Users\\Nitesh\\Documents\\(B)CommonFiles\\Coding_Workspace\\Face-Detection\\haarcascade_frontalface_default.xml)");
-        faceCascade.detectMultiScale(img, faces, 1.1, 10);
-        for (int i = 0; i < faces.size(); i++) {
-            rectangle(img, faces[i].tl(), faces[i].br(), Scalar(0, 255, 2), 2);
+                R"(C:\\Users\\Nitesh\\Documents\\(B)CommonFiles\\Coding_Workspace\\Face-Detection\\haarcascade_eye.xml)");
+        faceCascade.detectMultiScale(img, faces, 1.1, 5);
+        for (auto &face: faces) {
+            rectangle(img, face.tl(), face.br(), Scalar(0, 255, 2), 2);
         }
         imshow("Webcam", img);
-        waitKey(10);
+        waitKey(15);
     }
 
 
