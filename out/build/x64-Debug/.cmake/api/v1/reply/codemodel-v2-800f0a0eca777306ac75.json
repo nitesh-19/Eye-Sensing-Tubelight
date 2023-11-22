@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Face_Detection::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Face_Detection-Debug-c86d5f0a591231f29c7b.json",
+					"jsonFile" : "target-Face_Detection-Debug-99e28881ece299e93d54.json",
 					"name" : "Face_Detection",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Nitesh/Documents/(B)CommonFiles/Coding_Workspace/Face-Detection/cmake-build-debug",
+		"build" : "C:/Users/Nitesh/Documents/(B)CommonFiles/Coding_Workspace/Face-Detection/out/build/x64-Debug",
 		"source" : "C:/Users/Nitesh/Documents/(B)CommonFiles/Coding_Workspace/Face-Detection"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 5
 	}
 }

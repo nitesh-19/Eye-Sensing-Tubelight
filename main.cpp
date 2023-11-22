@@ -9,6 +9,19 @@ using namespace cv;
 using namespace std;
 
 
+void mqtt_handler() {
+    const string MQTT_SERVER = "mqtt://192.168.1.4:1883";
+    const int QOS = 1;
+
+    string topic = "openbkt/2/set";
+    auto connOpts = mqtt::connect_options_builder()
+        .keep_alive_interval(20);
+    .clean_session()
+        .finalize();
+
+
+}
+
 int main() {
     VideoCapture webcam(0);
     CascadeClassifier faceCascade;

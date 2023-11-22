@@ -23,7 +23,7 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "STRING",
@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Nitesh/Documents/(B)CommonFiles/Coding_Workspace/Face-Detection/cmake-build-debug"
+			"value" : "c:/Users/Nitesh/Documents/(B)CommonFiles/Coding_Workspace/Face-Detection/out/build/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -63,7 +63,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "23"
+			"value" : "26"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -75,7 +75,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "0"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -87,7 +87,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2022.2/bin/cmake/win/bin/cmake.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -99,7 +99,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2022.2/bin/cmake/win/bin/cpack.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -111,7 +111,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2022.2/bin/cmake/win/bin/ctest.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -126,7 +126,7 @@
 					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/cl.exe"
 		},
 		{
@@ -238,7 +238,7 @@
 					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/cl.exe"
 		},
 		{
@@ -458,6 +458,18 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake."
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Nitesh/Documents/(B)CommonFiles/Coding_Workspace/Face-Detection/out/build/x64-Debug/CMakeFiles/pkgRedirects"
+		},
+		{
 			"name" : "CMAKE_GENERATOR",
 			"properties" : 
 			[
@@ -523,11 +535,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Install path prefix, prepended onto install directories."
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Face_Detection"
+			"value" : "C:/Users/Nitesh/Documents/(B)CommonFiles/Coding_Workspace/Face-Detection/out/install/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -555,7 +567,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2022.2/bin/ninja/win/ninja.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -843,7 +855,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2022.2/bin/cmake/win/share/cmake-3.23"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1054,6 +1066,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenCV",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding OpenCV"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[C:/tools/opencv/build][v4.8.1()]"
+		},
+		{
 			"name" : "Face_Detection_BINARY_DIR",
 			"properties" : 
 			[
@@ -1063,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Nitesh/Documents/(B)CommonFiles/Coding_Workspace/Face-Detection/cmake-build-debug"
+			"value" : "C:/Users/Nitesh/Documents/(B)CommonFiles/Coding_Workspace/Face-Detection/out/build/x64-Debug"
 		},
 		{
 			"name" : "Face_Detection_IS_TOP_LEVEL",
@@ -1088,6 +1112,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/Nitesh/Documents/(B)CommonFiles/Coding_Workspace/Face-Detection"
+		},
+		{
+			"name" : "OpenCV_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for OpenCV."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/tools/opencv/build/x64/vc16/lib"
 		}
 	],
 	"kind" : "cache",
