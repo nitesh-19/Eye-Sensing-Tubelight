@@ -2,6 +2,8 @@
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/objdetect.hpp>
+#include "mqtt/async_client.h"
+#include "mqtt/topic.h"
 
 using namespace cv;
 using namespace std;
