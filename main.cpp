@@ -62,7 +62,7 @@ int main() {
 
 
 //    string path = R"(C:\\Users\\Nitesh\\Documents\\(B)CommonFiles\\Coding_Workspace\\Face-Detection\\man.jpg)";
-
+    //
 
 //    imshow("Image", img);
 //    waitKey(0);
