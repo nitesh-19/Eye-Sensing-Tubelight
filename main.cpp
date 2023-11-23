@@ -61,10 +61,7 @@ int main() {
         auto tok = my_client.connect();
         tok->wait();
 
-        // Subscribe to the topic using "no local" so that
-        // we don't get own messages sent back to us
-
-        std::cout << "Ok\nJoining the group..." << std::flush;
+        
 
         topic.subscribe()->wait();
         std::cout << "Ok" << std::endl;
@@ -77,12 +74,13 @@ int main() {
 
     string values[2] = { "0", "60" };
 
-    faceCascade.load(
-        R"(C:\\Users\\Nitesh\\Documents\\(B)CommonFiles\\Coding_Workspace\\Face-Detection\\haarcascade_eye.xml)");
+    faceCascade.load(R"(C:\Users\Nitesh\Documents\(B)CommonFiles\Coding_Workspace\Face-Detection\haarcascade_eye.xml)");
     int i = 0;
 
     while (true) {
         webcam.read(img);
+        cvtColor(img, img, COLOR_BGR2GRAY);
+
         faceCascade.detectMultiScale(img, faces, 1.1,6);
         if (!faces.empty()) {
             for (&i; i <= 60; i++) {
@@ -92,6 +90,7 @@ int main() {
             while (!faces.empty()) {
                // topic.publish(to_string(60));
                 webcam.read(img);
+                cvtColor(img, img, COLOR_BGR2GRAY);
                 cout << "face" << endl;
 
                 faceCascade.detectMultiScale(img, faces, 1.1, 6);
@@ -107,6 +106,8 @@ int main() {
                 while (faces.empty()) {
                    // topic.publish(to_string(0));
                     webcam.read(img);
+                    cvtColor(img, img, COLOR_BGR2GRAY);
+
                     cout << "no face" << endl;
                     faceCascade.detectMultiScale(img, faces, 1.1, 6);
 
@@ -126,12 +127,4 @@ int main() {
     }
 
 
-//    string path = R"(C:\\Users\\Nitesh\\Documents\\(B)CommonFiles\\Coding_Workspace\\Face-Detection\\man.jpg)";
-    //
-
-//    imshow("Image", img);
-//    waitKey(0);
-    std::cout << "Hello, World!" << std::endl;
-
-    return 0;
 }
