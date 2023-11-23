@@ -1,3 +1,0 @@
-C:/Users/Nitesh/Documents/(B)CommonFiles/Coding_Workspace/Face-Detection/cmake-build-debug/CMakeFiles/Face_Detection.dir
-C:/Users/Nitesh/Documents/(B)CommonFiles/Coding_Workspace/Face-Detection/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Nitesh/Documents/(B)CommonFiles/Coding_Workspace/Face-Detection/cmake-build-debug/CMakeFiles/rebuild_cache.dir
